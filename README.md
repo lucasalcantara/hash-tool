@@ -1,6 +1,9 @@
 # hash-tool
 This tool makes http requests and prints the address of the request along with the MD5 hash of the response.
 
+## Build
+To build this tool run `go build .`
+
 ## Run
 To run the tool you need to execute `./hash-tool <url>...` and in case that for any reason the tool gets an error when executing the request the url will be printed with an empty space
 For example:
